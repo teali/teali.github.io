@@ -1,14 +1,21 @@
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Tony Li</title>
-
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="
+https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+    
     <link rel="stylesheet" href="style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
     <script src="script.js"></script>
   </head>
 
@@ -19,24 +26,62 @@
       <div class="contact">
         <div class="contact-item">
           <i class="fa fa-github"></i>
-          <a href="https://github.com/teali">github.com/teali</a>
+          <a href="https://github.com/teali" target="_blank">github.com/teali</a>
         </div>
         <div class="contact-item">
           <i class="fa fa-linkedin-square"></i>
-          <a href="ca.linkedin.com/in/teali">ca.linkedin.com/in/teali</a>
+          <a href="https://ca.linkedin.com/in/teali" target="_blank">ca.linkedin.com/in/teali</a>
         </div>
         <div class="contact-item">
           <i class="fa fa-envelope" style="font-size:0.8em;"></i>
-          <a href="mailto:tonyli2048@gmail.com">tonyli2048@gmail.com</a>
+          <a href="mailto:tonyli2048@gmail.com" target="_blank">tonyli2048@gmail.com</a>
         </div>
       </div>
 
     </div>
-    <div class="skills">
-      
-    </div>
-    <div class="projects">
-      
+    <p class="title">Fullstack Developer</p>
+
+    <!-- <div class="skills">
+      <div class="column">
+        <p>Javascript</p>
+        <p>Java</p>
+        <p>Python</p>
+      </div>
+      <div class="column">
+        <p>Javascript</p>
+        <p>Java</p>
+        <p>Python</p>
+      </div>
+    </div> -->
+    <div class="project-container" >
+
+      <div class="project">
+        <div class="img-container">
+          <img src="webosu.png" alt="" width="220" height="200">
+        </div>
+        <div>
+          <a class="project-name" href="https://teali.github.io/web-osu" target="_blank">Web Osu</a>
+          <p class="pd">Proof of concept that a web implementation of the original Osu rhythm game is possible. Uses canvas, spline conversions, and bezier parameterization to perform animations</p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="img-container">
+          <img src="beateq.png" alt="" width="220" height="200">
+        </div>
+        <div>
+          <a class="project-name" href="http://www.beateq.co" target="_blank">Beateq</a>
+          <p class="pd">Designed to sync multiple devices to the same playlist. Solely developed and designed with Django, gevent, JavaScript, CSS, and HTML.</p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="img-container">
+          <img src="neon.png" alt="" width="220" height="200">
+        </div>
+        <div>
+          <a class="project-name" href="http://tinyurl.com/neonbeta" target="_blank">Neon</a>
+          <p class="pd">A 2D Android shooter game stylized in a retro arcade fashion.</p>
+        </div>
+      </div>
     </div>
   </body>
 

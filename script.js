@@ -25,3 +25,11 @@ function afterParticlesLoaded() {
 }
 
 particlesJS.load('particles-js', 'particle_config.json', afterParticlesLoaded);
+
+(function($){
+    $(window).load(function(){
+        $('.project-container').slick({
+          dots: true,
+        });
+    });
+})(jQuery);
